@@ -1,10 +1,11 @@
-Neural netowrks
-Perceptron
+# Neural netowrks
 
-Multilayer perceptron
+1. Perceptron
 
-Initialization
+2. Multilayer perceptron
 
-Optimization
+3. Initialization
 
-Hyperparameters
+4. Optimization
+
+5. Hyperparameters
