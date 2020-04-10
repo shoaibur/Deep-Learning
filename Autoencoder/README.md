@@ -1,11 +1,14 @@
 # Autoencoders
 
-Autoencoders are neural networks used for data compression, signal de-noising and dimensionality reduction.
+Autoencoders are neural networks used for data compression, signal de-noising and dimensionality reduction. An autoencoder contains an encoder and a decoder.
 
-Two major types of autoencoders are:
+[Image]
 
-1) Linear autoencoder
+Two major types of auto-encoding methods:
 
-2) Convolutional autoencoder
-  * Transpose convolution
-  * Upsampling or interpolation
+1) Linear auto-encoding
+* Used linear or fully connected layers
+
+2) Convolutional auto-encoding
+* Transpose convolution
+* Upsampling or interpolation
