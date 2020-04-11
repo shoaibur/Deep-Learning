@@ -4,8 +4,7 @@ Content image - The image whose style needs to be modified.
 Style image - Style of this image will be transfered to the content image
 Target image - contains content of the content image and style of the style image.
 
-$$C_c$$ and $S_c$: Content and style of the content image, respectively.
-
+C<sub>C</sub> and S<sub>C</sub>: Content and style of the content image, respectively.
 
 So, we need to separte the content and style from both content image and style image
 Content image = content + style
