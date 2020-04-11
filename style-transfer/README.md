@@ -44,7 +44,14 @@ L<sub>content</sub> = mean ( target_image_features[conv4_2] - content_image_feat
 ### Style loss
 L<sub>style</sub> = sum_i ( N<sub>layer</sub> * mean ( target_image_gram[layer] - content_image_gram[layer] )<sup>2</sup> )
 
-where, layer = conv1_1, conv2_1, conv3_1, conv4_1 and conv5_1 and N<sub>layer</sub> = 1 / total number of elements in the current layer.
+where, layer = conv1_1, conv2_1, conv3_1, conv4_1 and conv5_1, N<sub>layer</sub> = 1 / total number of elements in the current layer, and image_gram[layer] is the gram matrix of the layer for the image.
+
+For computing gram matrix, let's consider that the features of a given layer has a shape of (number of channels x Height x Width) = (nC x H x W). We first convert the features into a 2D shape of (nC x HW) and then the gram matrix of a given image is computed as: gram matrix = features * transpose of features. Note that the shape of the gram matrix is (nC x nC), which is independent of the spatial dimension of the features. For the target and style images,
+
+target_image_gram[layer] = target_image_features[layer] * target_image_features[layer]<sup>T</sup>
+
+style_image_gram[layer] = style_image_features[layer] * style_image_features[layer]<sup>T</sup>
+
 
 ### Total loss
 Total loss = content_weight * L<sub>content</sub> + sytyle_weight * L<sub>style</sub>
