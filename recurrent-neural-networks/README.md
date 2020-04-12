@@ -11,3 +11,11 @@ In mid-nineties, long short-term memory (LSTM) cell was invented to overcome the
 * Time series prediction - Examples include stock price prediction, traffic patterns prediction, movie selection, etc.
 * Natural language processing - Example includes machine translation (Google, salesforce), question answering (Google analytics), chatbots, etc.
 * Gesture recognition - Capture gesture by analyzing a sequence of frames, for example, to recognize if a person is waving a hand or swinging it. Qualcomm, EyeSight, Intel, GestureTek, GestSure, Omek are some of the companies who use gesture recognition techniques in many of their products.
+
+
+### Basic concepts of RNNs
+* RNN at time t and t+1
+  * At time t+1, state variable s<sub>t</sub> is used as the input to the network. State variable s<sub>t</sub> is the output from the network at time t.
+* Folded vs. unfolded representations of the RNN
+* Single vs. multi-layer RNNs
+* Backpropagation through time (BPTT)
