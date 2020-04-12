@@ -15,7 +15,7 @@ In mid-nineties, long short-term memory (LSTM) cell was invented to overcome the
 
 ### Basic concepts of RNNs
 * RNN at time t and t+1
-  * At time t+1, state variable s<sub>t</sub> is used as the input to the network. State variable s<sub>t</sub> is the output from the network at time t.
+  * At time t+1, state variable s<sub>t</sub> is used as the input to the network. State variable s<sub>t</sub> is the output from the network, specifically, from layer L, at time t. This output goes as the input to the layer L in the next time point. 
 * Folded vs. unfolded representations of the RNN
 * Single vs. multi-layer RNNs
 * Backpropagation through time (BPTT)
