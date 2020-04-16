@@ -8,4 +8,8 @@ Outline
   * Convolutional kernel
   * Edge detectors
   * Blurring
-* 
+* CNN layers
+  * Convolutional layers
+  * Pooling layers
+  * Fully connected layers
+  
