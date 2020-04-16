@@ -17,7 +17,12 @@ Outline
     * Padding
     * Activation
     * Number of parameters in a conv layer
-    <img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
+      * k = number of filters
+      * F = kernel size
+      * Din = depth of the input data, i.e., the output from the previous layer
+      * Number of weights in a conv layer = F * F * Din
+      * Number of parameters in a conv layer = F * F * Din * k + k
+      * +k indicate one bias parameter for each filter.
     * Size of output from a conv layer
   * Pooling layers
   * Fully connected layers
