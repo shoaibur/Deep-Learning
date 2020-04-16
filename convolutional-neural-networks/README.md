@@ -17,4 +17,3 @@ Outline
   * Translation
   * Rotation
   * Flipping
-* 
