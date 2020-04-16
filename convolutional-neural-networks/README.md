@@ -12,7 +12,15 @@ Outline
   * Edge detectors
   * Blurring
 * CNN layers
-  * Convolutional layers
+  * Convolutional layers: Conv layers make the output array deeper in the depth- or z-direction. Total depth of the output is equal to the number of filters used in the convolution. Several concepts are important to understand a conv layer, e.g.,
+    * Stride
+    * Padding
+    * Activation
+    * Number of parameters in a conv layer
+    \begin{equation}
+    k = Number of filters
+    \end{equation}
+    * Size of output from a conv layer
   * Pooling layers
   * Fully connected layers
 * Capsule network
