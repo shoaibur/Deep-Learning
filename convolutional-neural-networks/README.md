@@ -12,4 +12,9 @@ Outline
   * Convolutional layers
   * Pooling layers
   * Fully connected layers
-  
+* Capsule network
+* Data augmentation
+  * Translation
+  * Rotation
+  * Flipping
+* 
