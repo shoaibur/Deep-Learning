@@ -17,9 +17,7 @@ Outline
     * Padding
     * Activation
     * Number of parameters in a conv layer
-    \begin{equation}
-    k = Number of filters
-    \end{equation}
+    <img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
     * Size of output from a conv layer
   * Pooling layers
   * Fully connected layers
