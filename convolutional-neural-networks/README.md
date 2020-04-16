@@ -6,6 +6,7 @@ Outline
     * MLPs use only fully connected layers and accept only vectors as the inputs, while CNNs use sparsely connected layers and accept matrix data as the inputs.
   * Why do CNNs works?
   * Application of CNNs
+    * Computer vision - Image classification, image segmentation
 * Image processing
   * Convolutional kernel
   * Edge detectors
