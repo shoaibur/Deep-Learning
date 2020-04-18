@@ -27,6 +27,8 @@ Outline
       * Depth is always equal to the number of filters, k
       * Spatial dimension = (Win + 2P - F) / S + 1, where, Win = (x or y) dimension of the input data to the layer, P = padding, S = stride.
   * Pooling layers
+    * Max pooling
+    * Average pooling
   * Fully connected layers
 * Capsule network
 * Data augmentation
