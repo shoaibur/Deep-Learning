@@ -24,6 +24,8 @@ Outline
       * Number of parameters in a conv layer = F * F * Din * k + k
       * +k indicate one bias parameter for each filter.
     * Size of output from a conv layer
+      * Depth is always equal to the number of filters, k
+      * Spatial dimension = (Win + 2P - F) / S + 1, where, Win = (x or y) dimension of the input data to the layer, P = padding, S = stride.
   * Pooling layers
   * Fully connected layers
 * Capsule network
