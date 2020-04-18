@@ -31,7 +31,7 @@ Outline
     * Average pooling
   * Fully connected layers
 * Capsule network
-* Data augmentation
-  * Translation
-  * Rotation
-  * Flipping
+* Data augmentation: This allows us to represent invariances of the input images, for example.
+  * Scale invariance - small vs. big images
+  * Rotation invariance - rotation of image by an angle, horizontal/vertial flipping etc.
+  * Translation invariance - left vs. right, top vs. bottom positions of the images
