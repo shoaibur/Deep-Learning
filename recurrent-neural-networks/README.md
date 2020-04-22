@@ -1,5 +1,5 @@
 # Recurrent Neural Networks
-
+### Introduction
 Feedforward and convolutional neural networks provide outputs based on the current inputs. These networks do not consider any inputs or state of the inputs prior to their current states. However, biological neural networks use a lot a recurrent connection, i.e., use the previous inputs in addition to the current inputs. In other words, the biological neural networks "memorize" some of its previous input states and use them later when needed. Recurrent neural networks (RNNs) introduce this "memory" component in the operations performed by the artificial neural networks.
 
 The first attempt to introduce memory in the neural networks was to use time delay neural network (TDNN). In TDNN, the inputs are time-delayed (think of a delay block!) and are fed into the next layers of the network. However, this network can introduce memory of a certain time window, i.e., the memory is limited by the number of the time-delay block. This invention was followed by other simple RNNs, like Elman network or Jordan network. Notably, although these networks paved the paths toward the state-of-the-art developments of RNNs, all these earlier networks suffered from a problem called vanishing gradient.
@@ -19,3 +19,7 @@ In mid-nineties, long short-term memory (LSTM) cell was invented to overcome the
 * Folded vs. unfolded representations of the RNN
 * Single vs. multi-layer RNNs
 * Backpropagation through time (BPTT)
+
+# LSTM
+  * LSTM with 4 standard gates
+  * Peephole LSTM and GRU
