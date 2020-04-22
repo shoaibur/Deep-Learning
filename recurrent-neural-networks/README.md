@@ -23,3 +23,14 @@ In mid-nineties, long short-term memory (LSTM) cell was invented to overcome the
 # LSTM
   * LSTM with 4 standard gates
   * Peephole LSTM and GRU
+
+# Hyperparameters
+  * Optimizer hyperparameters
+    * Learning rate - The most important one. 
+    * Mini-batch size
+    * Number of epochs
+  * Model hyperparameters
+    * Number of hidden units
+    * Number of hidden layers
+    * Cell type
+    * Word embedding size
