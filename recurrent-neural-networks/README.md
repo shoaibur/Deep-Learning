@@ -32,10 +32,13 @@ In mid-nineties, long short-term memory (LSTM) cell was invented to overcome the
       * Validation error increasing - learning rate is high, decrease it.
       * A good starting point of learning rate is 0.01, but try with other values between 0.1 and 0.000001.
     * Learning rate decay - Adaptive learning rate, start with a higher value  and decrease linearly or exponentially after some number of epochs.
-    * Mini-batch size 
-    * Number of epochs
+    * Mini-batch size
+      * Stochastic - batch size is 1.
+      * Batch - batch size is equal to the total number of training observations, n.
+      * Mini-batch - batch is between 1 and n.
+    * Number of epochs - Early stopping, when validation error does not decrease, say in the last 10 or 20 epochs.
   * Model hyperparameters
     * Number of hidden units
     * Number of hidden layers
-    * Cell type
-    * Word embedding size
+    * Cell type - RNN, LSTM, GRU. LSTM/GRU are better than RNN. Try with both LSTM and GRU.
+    * Word embedding size - Performance increases with embedding size up to a certain size. 50 to 200 is good, but could be 500 or even 1000.
