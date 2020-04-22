@@ -39,6 +39,6 @@ In mid-nineties, long short-term memory (LSTM) cell was invented to overcome the
     * Number of epochs - Early stopping, when validation error does not decrease, say in the last 10 or 20 epochs.
   * Model hyperparameters
     * Number of hidden units - Always tricky to find the best value. Start with a moderate number and apply regularization (L2 or dropout). First hidden layer with unit number larger than the number of inputs typically works better. Very large nunber of hidden units tend to overfi the model, i.e., validation accuracy is much lower than the training accuracy.
-    * Number of hidden layers - 3 is better than 2, more than 3 generally do not help much except in CNN. 
-    * Cell type - RNN, LSTM, GRU. LSTM/GRU are better than RNN. Try with both LSTM and GRU.
-    * Word embedding size - Performance increases with embedding size up to a certain size. 50 to 200 is good, but could be 500 or even 1000.
+    * Number of hidden layers - 3 is better than 2, more than 3 generally do not help much except in CNN. However, advanced speech recognition might be helpful with 5-7 layers always with LSTM cells  (see Soltau et al., 2016).
+    * Cell type - RNN, LSTM, GRU. LSTM/GRU are better than RNN. Try with both LSTM and GRU (see Karpath et al., 2015)
+    * Word embedding size - Performance increases with embedding size up to a certain size. 50 to 200 is good, but could be 500 or even 1000 (see Lai et al., 2016).
