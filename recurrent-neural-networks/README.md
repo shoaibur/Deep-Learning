@@ -26,8 +26,13 @@ In mid-nineties, long short-term memory (LSTM) cell was invented to overcome the
 
 # Hyperparameters
   * Optimizer hyperparameters
-    * Learning rate - The most important one. 
-    * Mini-batch size
+    * Learning rate - The most important one.
+      * Validation error decreasing - learning rate is good.
+      * Validation error decreasing slowly - learning rate is low, increase it.
+      * Validation error increasing - learning rate is high, decrease it.
+      * A good starting point of learning rate is 0.01, but try with other values between 0.1 and 0.000001.
+    * Learning rate decay - Adaptive learning rate, start with a higher value  and decrease linearly or exponentially after some number of epochs.
+    * Mini-batch size 
     * Number of epochs
   * Model hyperparameters
     * Number of hidden units
