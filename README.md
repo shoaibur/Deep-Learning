@@ -1,7 +1,15 @@
 # Deep-Learning
 
-### Part 1 - Neural Networks
-1. MNIST hand-written digits classification
-2. Fashion-MNIST clothing classification
+### Neural Networks
 
-### Part 2 - Convolutional Neural Networks
+### Convolutional Neural Networks
+
+### Style Transfer
+
+### Autoencoders
+
+### Recurrent Neural Networks
+
+### Generative Adversarial Networks
+
+### Model Deployment
