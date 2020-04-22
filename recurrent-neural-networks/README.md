@@ -30,7 +30,7 @@ In mid-nineties, long short-term memory (LSTM) cell was invented to overcome the
       * Validation error decreasing - learning rate is good.
       * Validation error decreasing slowly - learning rate is low, increase it.
       * Validation error increasing - learning rate is high, decrease it.
-      * A good starting point of learning rate is 0.01, but try with other values between 0.1 and 0.000001.
+      * A good starting point of learning rate is 0.01 but try with other values, e.g., between 0.1 and 0.000001.
     * Learning rate decay - Adaptive learning rate, start with a higher value  and decrease linearly or exponentially after some number of epochs.
     * Mini-batch size
       * Stochastic - batch size is 1.
@@ -38,7 +38,7 @@ In mid-nineties, long short-term memory (LSTM) cell was invented to overcome the
       * Mini-batch - batch is between 1 and n. Something between 32 and 256 are good choices. Smaller batch size is noisy, larger batch size requires more computational resources.
     * Number of epochs - Early stopping, when validation error does not decrease, say in the last 10 or 20 epochs.
   * Model hyperparameters
-    * Number of hidden units - Always tricky to find the best value. Start with a moderate number and apply regularization (L2 or dropout). First hidden layer with unit number larger than the number of inputs typically works better. Very large nunber of hidden units tend to overfi the model, i.e., validation accuracy is much lower than the training accuracy.
-    * Number of hidden layers - 3 is better than 2, more than 3 generally do not help much except in CNN. However, advanced speech recognition might be helpful with 5-7 layers always with LSTM cells  (see Soltau et al., 2016).
-    * Cell type - RNN, LSTM, GRU. LSTM/GRU are better than RNN. Try with both LSTM and GRU (see Karpath et al., 2015)
-    * Word embedding size - Performance increases with embedding size up to a certain size. 50 to 200 is good, but could be 500 or even 1000 (see Lai et al., 2016).
+    * Number of hidden units - Always tricky to find the best value. Start with a moderate number and apply regularization (L2 or dropout). First hidden layer with unit number larger than the number of inputs typically works better. Very large number of hidden units tend to overfit the model, i.e., validation accuracy is much lower than the training accuracy.
+    * Number of hidden layers - 3 is better than 2, more than 3 generally do not help much except in CNN. However, advanced speech recognition might be helpful with 5-7 layers always with LSTM cells (see Soltau et al., 2016).
+    * Cell type - RNN, LSTM, GRU. LSTM/GRU are better than RNN. Try with both LSTM and GRU (see Karpathy et al., 2015)
+    * Word embedding size - Performance increases with embedding size up to a certain size. 50 to 200 is good but could be 500 or even 1000 (see Lai et al., 2016).
