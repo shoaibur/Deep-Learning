@@ -22,6 +22,10 @@ In mid-nineties, long short-term memory (LSTM) cell was invented to overcome the
 
 # LSTM
   * LSTM with 4 standard gates
+    * Forget:
+    * Learn: 
+    * Remember: 
+    * Use: 
   * Peephole LSTM and GRU
 
 # Hyperparameters
