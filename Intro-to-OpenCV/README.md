@@ -1,7 +1,7 @@
 # Introduction to OpenCV
 
-#### Installation of OpenCV on Anaconda:
+### Installation of OpenCV on Anaconda:
 conda install opencv
 
-#### Import
+### Import
 import cv2
