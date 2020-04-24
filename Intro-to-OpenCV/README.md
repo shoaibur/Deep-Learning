@@ -21,8 +21,10 @@ gray_img = cv2.cvtColor(img, cv2.COLOR_RGB2GRAY)
 filt_img = cv2.filter2D(img, ddepth, kernel)
 
 Input arguments:
-----------------
-img: input image
 
-ddepth: desired depth of the output image (filt_img). If ddepth is negative, then the output image will have same depth of the input image.
+img -- input image
+
+ddepth -- desired depth of the output image (filt_img). If ddepth is negative, then the output image will have same depth of the input image.
+
+kernel -- filter that will be applied on the input image (img).
 
