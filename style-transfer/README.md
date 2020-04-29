@@ -1,4 +1,6 @@
 # Style Transfer
+Concept: Use already trained model to solve problems with new data.
+
 
 ## Content, style and target images
 Content image - The image whose style needs to be modified.
