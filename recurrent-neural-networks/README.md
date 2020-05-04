@@ -46,3 +46,7 @@ In mid-nineties, long short-term memory (LSTM) cell was invented to overcome the
     * Number of hidden layers - 3 is better than 2, more than 3 generally do not help much except in CNN. However, advanced speech recognition might be helpful with 5-7 layers always with LSTM cells (see Soltau et al., 2016).
     * Cell type - RNN, LSTM, GRU. LSTM/GRU are better than RNN. Try with both LSTM and GRU (see Karpathy et al., 2015)
     * Word embedding size - Performance increases with embedding size up to a certain size. 50 to 200 is good but could be 500 or even 1000 (see Lai et al., 2016).
+
+# Embeddings and Word2Vec
+
+# Sentiment analysis using RNN
