@@ -59,6 +59,7 @@ In mid-nineties, long short-term memory (LSTM) cell was invented to overcome the
          [7,3,8],
          [9,0,4]]
   </p>
+  
   * Also, let’s consider that the fourth word’s one-hot-encode vector is: [0, 0, 0, 1, 0], i.e., fourth element is nonzero. Word2Vec looks for the fourth row of LUT and gives as the output to the next layer.
   * There are two architecture for implementing Word2Vec:
     * Continuous bag of words (CBOW): Context words are the inputs and word of interest is the output. 
