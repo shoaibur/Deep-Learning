@@ -53,7 +53,11 @@ In mid-nineties, long short-term memory (LSTM) cell was invented to overcome the
   * We one-hot-encode the words. So, each word in a 10000-word vocabulary will be represented by a vector length of 10000, of which, only one element is 1 and others are 0s. This approach is computationally inefficient (multiplying a lot of zeros with their weights). 
   * Define a lookup table (LUT). Each row corresponds to a word. Each column represents embedding weights. Let’s consider a 5-word vocabulary and an embedding layer of 3 units. So, the lookup table will have 5 rows and 3 columns as follows:
   <p align="center">
-`  LUT = [[9,2,7], [3,1,5], [6,3,6], [7,3,8,], [9,0,4]]`
+  LUT = [[9,2,7],
+         [3,1,5],
+         [6,3,6],
+         [7,3,8],
+         [9,0,4]]
   </p>
   * Also, let’s consider that the fourth word’s one-hot-encode vector is: [0, 0, 0, 1, 0], i.e., fourth element is nonzero. Word2Vec looks for the fourth row of LUT and gives as the output to the next layer.
   * There are two architecture for implementing Word2Vec:
