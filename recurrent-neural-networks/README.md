@@ -48,5 +48,6 @@ In mid-nineties, long short-term memory (LSTM) cell was invented to overcome the
     * Word embedding size - Performance increases with embedding size up to a certain size. 50 to 200 is good but could be 500 or even 1000 (see Lai et al., 2016).
 
 # Embeddings and Word2Vec
-
+  * Word embedding is the collective term for models that learn to map a set of words or phrases in a vocabulary to vectors of numerical values. These vectors are called embeddings. In general, this technique is used to reduce dimensionality of text data. However, this technique can also learn interesting trends and relationships between the words in the vocabulary.
+  * 
 # Sentiment analysis using RNN
