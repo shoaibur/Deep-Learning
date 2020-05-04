@@ -49,5 +49,8 @@ In mid-nineties, long short-term memory (LSTM) cell was invented to overcome the
 
 # Embeddings and Word2Vec
   * Word embedding is the collective term for models that learn to map a set of words or phrases in a vocabulary to vectors of numerical values. These vectors are called embeddings. In general, this technique is used to reduce dimensionality of text data. However, this technique can also learn interesting trends and relationships between the words in the vocabulary.
+  * Word2Vec model that learns to map words to embeddings that contain semantic meaning. For example, embedding can learn the relationship between present and past tense. Therefore, relationship between walking and walked is like the relationship between swimming and swam, similarly between man and king, and woman and queen.
+  * We one-hot-encode the words. So, each word in a 10000-word vocabulary will be represented by a vector length of 10000, of which, only one element is 1 and others are 0s. This approach is computationally inefficient (multiplying a lot of zeros with their weights). 
   * 
+  
 # Sentiment analysis using RNN
