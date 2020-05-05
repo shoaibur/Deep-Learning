@@ -67,3 +67,16 @@ In mid-nineties, long short-term memory (LSTM) cell was invented to overcome the
 
   
 # Sentiment analysis using RNN
+* Preprocessing
+  * Lowercase and remove punctuation
+  * Remove \n
+
+* Encoding words
+  * vocab_to_int (sorted by frequency, most frequent words to 1 not 0)
+  * int_to_vocab
+  * Convert each review to int
+  * Convert each label to 1 (+) and 0 (-)
+
+* Standardize
+  * Remove zero length reviews
+  * Pad or truncate reviews
