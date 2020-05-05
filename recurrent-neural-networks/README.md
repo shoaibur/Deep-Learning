@@ -80,3 +80,6 @@ In mid-nineties, long short-term memory (LSTM) cell was invented to overcome the
 * Standardize
   * Remove zero length reviews
   * Pad or truncate reviews
+
+
+# Attention
